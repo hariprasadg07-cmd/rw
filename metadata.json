@@ -1,0 +1,6 @@
+{
+  "name": "Jarvis Voice Assistant",
+  "description": "Futuristic voice assistant inspired by JARVIS, powered by Gemini AI with speech recognition, dynamic vocal synthesis, and arc-reactor telemetry HUD.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

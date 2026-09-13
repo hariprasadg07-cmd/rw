@@ -1,0 +1,56 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Reactor Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:pathData="M 54,26 A 28,28 0 1,0 54,82 A 28,28 0 1,0 54,26" />
+
+    <!-- Dashed Middle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:pathData="M 54,32 A 22,22 0 1,0 54,76 A 22,22 0 1,0 54,32" />
+
+    <!-- Inner Glowing Core Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="2.0"
+        android:pathData="M 54,38 A 16,16 0 1,0 54,70 A 16,16 0 1,0 54,38" />
+
+    <!-- Central Glowing Nucleus -->
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M 54,46 A 8,8 0 1,0 54,62 A 8,8 0 1,0 54,46" />
+
+    <!-- 10 Reactor Segment Nodes -->
+    <!-- Top & Bottom -->
+    <path android:fillColor="#FFD700" android:pathData="M52,24h4v6h-4z" />
+    <path android:fillColor="#FFD700" android:pathData="M52,78h4v6h-4z" />
+    <!-- Left & Right -->
+    <path android:fillColor="#FFD700" android:pathData="M24,52h6v4h-6z" />
+    <path android:fillColor="#FFD700" android:pathData="M78,52h6v4h-6z" />
+    <!-- Diagonals -->
+    <path android:fillColor="#38BDF8" android:pathData="M33,33h5v5h-5z" />
+    <path android:fillColor="#38BDF8" android:pathData="M70,33h5v5h-5z" />
+    <path android:fillColor="#38BDF8" android:pathData="M33,70h5v5h-5z" />
+    <path android:fillColor="#38BDF8" android:pathData="M70,70h5v5h-5z" />
+
+    <!-- Center Microphone/Voice Wave silhouette in the core -->
+    <path
+        android:fillColor="#0A1128"
+        android:pathData="M 54,49 C 52.3,49 51,50.3 51,52 L 51,55 C 51,56.7 52.3,58 54,58 C 55.7,58 57,56.7 57,55 L 57,52 C 57,50.3 55.7,49 54,49 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#0A1128"
+        android:strokeWidth="1.2"
+        android:pathData="M 49,53 C 49,56.5 51.5,59 54,59 C 56.5,59 59,56.5 59,53 M 54,59 L 54,62 M 52,62 L 56,62" />
+</vector>
+
